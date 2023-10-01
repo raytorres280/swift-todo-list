@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>800412342834-3d341e759untnqnrie7pejlo03gech42.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.800412342834-3d341e759untnqnrie7pejlo03gech42</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAXnuzHwl5G8kku3y7zqbs_8tCZS47e3Do</string>
+	<key>GCM_SENDER_ID</key>
+	<string>800412342834</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>wizard.todo-list</string>
+	<key>PROJECT_ID</key>
+	<string>todolist-1af00</string>
+	<key>STORAGE_BUCKET</key>
+	<string>todolist-1af00.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:800412342834:ios:f2d46830c23e96639dba2b</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.800412342834-3d341e759untnqnrie7pejlo03gech42</string>
+            </array>
+		</dict>
+	</array>
+</dict>
+</plist>
