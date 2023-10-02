@@ -8,9 +8,8 @@
 import Foundation
 
 class TodoListViewModel : ObservableObject {
-    @Published var todos :Array = [
-        
-    ]
+    @Published var todos: Array = []
+    @Published var newItemViewVisible: Bool = false
     init() {}
     
     func fetchTodos() {

@@ -13,15 +13,19 @@ struct TodoListView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                
+                 
             }
             .navigationTitle("Todo List")
             .toolbar {
                 Button {
-                    
+//                    viewModel.newItemViewVisible = true
+                    viewModel.newItemViewVisible = true
                 } label: {
                     Image(systemName: "plus")
                 }
+            }
+            .sheet(isPresented: $viewModel.newItemViewVisible) {
+                NewListItemView()
             }
         }
     }

@@ -14,6 +14,10 @@ struct Todo {
         case appointments
     }
     
-    var title :String
+    var id: Int
+    var title: String
     var category: Categories
+    var isComplete :Bool
+    var userName: String
+    var userEmail: String
 }

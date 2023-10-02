@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct NewListItemView: View {
+    //TODO: this is wrong, should receive passed down one from parent
     @StateObject var viewModel = TodoListItemViewModel()
     var body: some View {
         VStack {
@@ -24,8 +25,22 @@ struct NewListItemView: View {
                         }
                     }.labelsHidden()
                 }
+                Button(action: viewModel.onSave) {
+                    Text("Save")
+                }
             }
             .padding(.top, 30)
+        }.navigationTitle("testing").toolbar {
+            ToolbarItem {
+                Button {
+                    print("press me")
+    //                Text("cancel")
+                } label: {
+                    Text("cancel")
+                }
+                .background(.blue)
+            }
+//            .buttonStyle(.automatic)
         }
     }
 }

@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct TodoListItemView: View {
-    @StateObject var viewModel = TodoListItemViewModel()
+    @ObservedObject var viewModel: TodoListItemViewModel
+    init(todo: Todo?) {
+        viewModel = TodoListItemViewModel(todo: todo)
+    }
     var body: some View {
         VStack {
             Text("New Item")
@@ -21,5 +24,5 @@ struct TodoListItemView: View {
 }
 
 #Preview {
-    TodoListItemView()
+    TodoListItemView(todo: nil)
 }
